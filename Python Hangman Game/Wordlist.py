@@ -1,0 +1,225 @@
+words = (
+    "apple", "banana", "orange", "mango", "grape", "peach", "pear", "plum",
+    "cherry", "lemon", "lime", "melon", "watermelon", "papaya", "guava",
+    "pineapple", "coconut", "kiwi", "apricot", "avocado", "strawberry",
+    "blueberry", "raspberry", "blackberry", "cranberry", "fig", "date",
+    "pomegranate", "passionfruit", "dragonfruit",
+
+    "dog", "cat", "horse", "cow", "goat", "sheep", "lion", "tiger",
+    "bear", "wolf", "fox", "deer", "rabbit", "mouse", "rat", "elephant",
+    "monkey", "zebra", "giraffe", "kangaroo", "panda", "leopard", "cheetah",
+    "gorilla", "camel", "donkey", "buffalo", "pig", "chicken",
+
+    "house", "home", "room", "door", "window", "wall", "floor", "ceiling",
+    "table", "chair", "desk", "bed", "sofa", "lamp", "clock", "mirror",
+    "kitchen", "bathroom", "garden", "garage", "roof", "stairs", "bridge",
+    "road", "street", "school", "college", "office", "hospital", "library",
+
+    "book", "paper", "pen", "pencil", "eraser", "notebook", "bag", "box",
+    "bottle", "glass", "plate", "spoon", "fork", "knife", "phone", "computer",
+    "laptop", "keyboard", "monitor", "camera", "screen", "printer", "radio",
+    "television", "speaker", "tablet", "charger", "battery", "internet",
+
+    "water", "food", "bread", "rice", "milk", "cheese", "butter", "sugar",
+    "salt", "pepper", "coffee", "tea", "juice", "cake", "cookie", "pizza",
+    "burger", "sandwich", "soup", "salad", "egg", "meat", "fish", "chicken",
+    "potato", "tomato", "onion", "carrot", "beans",
+
+    "red", "blue", "green", "yellow", "orange", "purple", "pink", "brown",
+    "black", "white", "gray", "gold", "silver", "bright", "dark", "light",
+    "large", "small", "big", "little", "long", "short", "tall", "wide",
+    "narrow", "fast", "slow", "hot", "cold", "warm",
+
+    "happy", "sad", "angry", "calm", "excited", "afraid", "brave", "kind",
+    "good", "bad", "great", "better", "best", "easy", "hard", "strong",
+    "weak", "smart", "clever", "funny", "serious", "beautiful", "ugly",
+    "young", "old", "new", "fresh", "clean", "dirty", "rich",
+
+    "run", "walk", "jump", "swim", "read", "write", "speak", "listen",
+    "watch", "look", "see", "hear", "think", "learn", "teach", "study",
+    "work", "play", "sleep", "eat", "drink", "cook", "drive", "ride",
+    "build", "make", "create", "open", "close", "start",
+
+    "stop", "go", "come", "leave", "bring", "take", "give", "get",
+    "find", "lose", "keep", "put", "move", "turn", "change", "help",
+    "ask", "answer", "call", "send", "receive", "buy", "sell", "pay",
+    "win", "fail", "try", "use", "need",
+
+    "one", "two", "three", "four", "five", "six", "seven", "eight",
+    "nine", "ten", "hundred", "thousand", "first", "second", "third",
+    "last", "next", "many", "few", "more", "less", "some", "all",
+    "none", "each", "every", "another", "same", "different",
+
+    "morning", "afternoon", "evening", "night", "day", "week", "month",
+    "year", "today", "tomorrow", "yesterday", "Monday", "Tuesday",
+    "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "January",
+    "February", "March", "April", "May", "June", "July", "August",
+    "September", "October", "November", "December",
+
+    "time", "world", "life", "people", "person", "man", "woman", "child",
+    "boy", "girl", "friend", "family", "mother", "father", "brother",
+    "sister", "son", "daughter", "parent", "teacher", "student", "doctor",
+    "worker", "engineer", "driver", "farmer", "artist", "writer", "leader",
+
+    "city", "town", "village", "country", "state", "street", "park",
+    "river", "lake", "ocean", "sea", "mountain", "forest", "beach",
+    "island", "desert", "field", "farm", "market", "shop", "store",
+    "restaurant", "hotel", "airport", "station", "school", "university",
+    "bank", "church", "temple",
+
+    "car", "bus", "train", "plane", "boat", "ship", "bicycle", "motorcycle",
+    "truck", "taxi", "vehicle", "wheel", "engine", "road", "traffic",
+    "ticket", "station", "airport", "travel", "trip", "journey", "holiday",
+    "map", "country", "city", "direction", "north", "south", "east",
+
+    "west", "left", "right", "up", "down", "inside", "outside", "near",
+    "far", "above", "below", "before", "after", "between", "around",
+    "through", "across", "under", "over", "behind", "front", "back",
+    "side", "center", "middle", "top", "bottom", "corner", "place",
+
+    "computer", "program", "code", "python", "java", "javascript", "cpp",
+    "software", "hardware", "database", "server", "network", "website",
+    "application", "system", "algorithm", "function", "variable", "class",
+    "object", "string", "number", "list", "tuple", "set", "dictionary",
+    "array", "loop", "condition", "error",
+
+    "data", "information", "file", "folder", "document", "image", "video",
+    "audio", "message", "email", "account", "password", "user", "login",
+    "button", "page", "link", "search", "result", "input", "output",
+    "value", "key", "name", "address", "number", "text", "word", "language",
+    "question", "answer",
+
+    "science", "math", "physics", "chemistry", "biology", "history",
+    "geography", "economics", "business", "technology", "engineering",
+    "medicine", "education", "research", "knowledge", "theory", "practice",
+    "example", "problem", "solution", "idea", "reason", "fact", "truth",
+    "test", "exam", "class", "lesson", "course", "project",
+
+    "music", "song", "movie", "film", "game", "sport", "football", "cricket",
+    "tennis", "basketball", "baseball", "player", "team", "match", "ball",
+    "goal", "score", "win", "loss", "race", "run", "jump", "fight",
+    "dance", "art", "painting", "picture", "story", "poem", "book",
+
+    "shirt", "pants", "shoe", "sock", "hat", "coat", "dress", "jacket",
+    "watch", "ring", "belt", "clothes", "color", "size", "style", "fashion",
+    "cotton", "leather", "gold", "silver", "diamond", "button", "pocket",
+    "hand", "head", "face", "hair", "eye", "ear",
+
+    "head", "face", "eye", "ear", "nose", "mouth", "tooth", "neck",
+    "shoulder", "arm", "hand", "finger", "chest", "back", "leg", "knee",
+    "foot", "toe", "body", "heart", "brain", "blood", "skin", "bone",
+    "health", "doctor", "medicine", "hospital", "exercise", "fitness",
+
+    "love", "hate", "hope", "fear", "joy", "peace", "anger", "dream",
+    "wish", "idea", "thought", "mind", "memory", "feeling", "emotion",
+    "smile", "laugh", "cry", "voice", "sound", "silence", "trust", "respect",
+    "care", "support", "friendship", "family", "relationship", "life", "death",
+
+    "beautiful", "wonderful", "amazing", "excellent", "perfect", "simple",
+    "complex", "important", "possible", "impossible", "interesting",
+    "boring", "useful", "useless", "special", "normal", "common", "rare",
+    "different", "similar", "ready", "busy", "free", "full", "empty",
+    "open", "closed", "available", "correct", "wrong",
+
+    "quickly", "slowly", "carefully", "easily", "hardly", "always",
+    "never", "often", "sometimes", "usually", "really", "very", "quite",
+    "almost", "already", "again", "together", "alone", "here", "there",
+    "everywhere", "nowhere", "today", "tomorrow", "yesterday", "soon",
+    "later", "early", "late", "again",
+
+    "and", "or", "but", "because", "although", "if", "when", "while",
+    "before", "after", "since", "until", "unless", "than", "so", "also",
+    "then", "however", "therefore", "perhaps", "maybe", "yes", "no",
+    "not", "very", "too", "only", "just", "even", "still",
+
+    "man", "woman", "boy", "girl", "baby", "family", "friend", "neighbor",
+    "teacher", "student", "doctor", "nurse", "police", "soldier", "pilot",
+    "chef", "farmer", "artist", "actor", "singer", "writer", "engineer",
+    "developer", "manager", "worker", "driver", "lawyer", "judge", "scientist",
+
+    "king", "queen", "prince", "princess", "president", "government",
+    "country", "nation", "state", "city", "people", "community", "society",
+    "law", "rule", "right", "power", "money", "price", "value", "market",
+    "company", "business", "job", "career", "office", "team", "group",
+    "member", "customer", "service",
+
+    "money", "coin", "cash", "bank", "card", "payment", "price", "cost",
+    "cheap", "expensive", "free", "buy", "sell", "shop", "store", "market",
+    "product", "business", "company", "customer", "sale", "profit", "loss",
+    "job", "work", "salary", "career", "office", "manager", "employee",
+
+    "tree", "flower", "grass", "plant", "leaf", "root", "branch", "seed",
+    "fruit", "wood", "stone", "rock", "sand", "soil", "earth", "fire",
+    "water", "air", "wind", "rain", "snow", "cloud", "storm", "sun",
+    "moon", "star", "sky", "space", "planet", "world",
+
+    "red", "blue", "green", "yellow", "black", "white", "brown", "gray",
+    "pink", "purple", "gold", "silver", "dark", "bright", "deep", "light",
+    "soft", "hard", "smooth", "rough", "heavy", "thin", "thick", "wide",
+    "narrow", "high", "low", "deep", "shallow", "flat",
+
+    "happy", "sad", "angry", "calm", "kind", "cruel", "brave", "afraid",
+    "strong", "weak", "rich", "poor", "smart", "stupid", "young", "old",
+    "beautiful", "ugly", "clean", "dirty", "safe", "dangerous", "healthy",
+    "sick", "busy", "lazy", "active", "quiet", "loud", "friendly",
+
+    "accept", "add", "agree", "allow", "appear", "apply", "arrive", "become",
+    "begin", "believe", "break", "bring", "build", "buy", "carry", "catch",
+    "choose", "clean", "climb", "collect", "compare", "complete", "continue",
+    "cook", "copy", "cut", "dance", "decide", "deliver",
+
+    "describe", "develop", "die", "discover", "discuss", "draw", "dream",
+    "drink", "drive", "drop", "earn", "eat", "enjoy", "enter", "exist",
+    "explain", "fall", "feel", "fill", "finish", "follow", "forget",
+    "forgive", "grow", "guess", "happen", "hate", "hear", "hide", "hold",
+
+    "imagine", "improve", "include", "increase", "introduce", "invite",
+    "join", "keep", "kill", "know", "laugh", "learn", "leave", "lend",
+    "lift", "like", "listen", "live", "look", "love", "manage", "mean",
+    "meet", "remember", "miss", "need", "offer", "order", "own",
+
+    "pass", "pay", "perform", "pick", "plan", "play", "prepare", "present",
+    "produce", "protect", "prove", "provide", "pull", "push", "reach",
+    "read", "realize", "receive", "recognize", "record", "reduce", "refuse",
+    "remain", "remove", "repeat", "replace", "reply", "report", "return",
+
+    "save", "say", "search", "seem", "sell", "serve", "set", "share",
+    "show", "sing", "sit", "sleep", "solve", "spend", "stand", "start",
+    "stay", "steal", "stop", "suggest", "support", "suppose", "surprise",
+    "swim", "take", "talk", "teach", "tell", "think",
+
+    "throw", "touch", "train", "travel", "treat", "try", "turn", "understand",
+    "use", "visit", "wait", "wake", "walk", "want", "wash", "wear",
+    "win", "wish", "wonder", "work", "worry", "write", "accept", "achieve",
+    "act", "adapt", "avoid", "create", "damage", "destroy", "design",
+
+    "ability", "action", "activity", "advantage", "adventure", "advice",
+    "age", "answer", "area", "argument", "army", "attention", "author",
+    "background", "balance", "behavior", "benefit", "chance", "choice",
+    "challenge", "change", "character", "charge", "child", "choice",
+    "condition", "control", "conversation", "culture", "decision",
+
+    "difference", "direction", "discussion", "education", "effect", "effort",
+    "energy", "experience", "fact", "family", "future", "goal", "growth",
+    "history", "hope", "idea", "importance", "information", "interest",
+    "knowledge", "language", "level", "location", "machine", "method",
+    "moment", "nature", "opinion", "opportunity", "order", "part",
+
+    "party", "period", "person", "place", "plan", "point", "position",
+    "power", "problem", "process", "purpose", "question", "reason",
+    "relationship", "research", "result", "role", "school", "sense",
+    "service", "situation", "skill", "society", "source", "space", "story",
+    "subject", "success", "system",
+
+    "thing", "thought", "time", "trade", "training", "truth", "type",
+    "understanding", "value", "view", "way", "work", "world", "year",
+    "account", "amount", "building", "center", "company", "computer",
+    "course", "data", "design", "development", "experience", "field",
+    "form", "group", "history", "industry",
+
+    "market", "media", "model", "network", "office", "organization",
+    "performance", "population", "product", "program", "project", "property",
+    "quality", "resource", "response", "room", "school", "science",
+    "security", "software", "technology", "theory", "tool", "user",
+    "website", "window", "world", "system", "application", "database"
+)
